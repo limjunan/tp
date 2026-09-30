@@ -9,7 +9,7 @@ import static java.util.Objects.requireNonNull;
  * <p>Unlike the other person fields, a remark has no constraints: any text is
  * acceptable, and an empty remark simply means the person has no remark.
  * That is why this class has no {@code VALIDATION_REGEX} or
- * {@code MESSAGE_CONSTRAINTS} counterpart to {@link Address}.
+ * {@code MESSAGE_CONSTRAINTS} of its own.
  */
 public class Remark {
 
